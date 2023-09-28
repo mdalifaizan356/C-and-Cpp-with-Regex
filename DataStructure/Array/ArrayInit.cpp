@@ -3,17 +3,21 @@
 using namespace std;
 int main()
 {
-	int age[]={12,22,25,26,23,73};
-	char alphabet[]={'a','b','c','d'};
-	string names[]={"kuldeep","keshav","bishan","himanshu","Prajjal"};
-	double plot[]={2.5,4.5,5.6,2.714,2.114,1.12};
+	// int age[]={12,22,25,26,23,73};
+	// char alphabet[]={'a','b','c','d'};
+	// string names[]={"kuldeep","keshav","bishan","himanshu","Prajjal"};
+	// double plot[]={2.5,4.5,5.6,2.714,2.114,1.12};
 	
 
 	//array jagah reserve karke rakhta hai
 	//default initialisation
-	// int age[4]={};/0 0 0 0 0 
-	// int n = (sizeof(age)/sizeof(age[0]));
-	// cout<<n;
+	// int age[6]={};//0 0 0 0 0 
+	// int n =(sizeof(age[]));
+    // cout<<n<<"\t";
+    //  n = (sizeof(age));
+    //  cout<<n<<"\t";
+    //  n = (sizeof(age)/sizeof(age[0]));
+	// cout<<n<<"\t";
 
 	//partial initialisation	
 	// int age[4]={1,2};//1 2 0 0
@@ -51,7 +55,7 @@ int main()
 	// cout<<n<<"\n"<<chararray;
 
 	// for(int i=0;i<3;i++){
-	// 	cout<<arr[i]<<" ";
+	// 	cout<<arr[i]<<" "; 
 	// }
 
 	// for(auto it:names)
