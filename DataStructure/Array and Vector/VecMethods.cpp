@@ -12,10 +12,5 @@ int main(){
     myvector.pop_back();
     cout<<myvector[0]<<"\n";
     cout<<myvector[1]<<"\n";
-
-    
-
-
-
     return 0;
 }
