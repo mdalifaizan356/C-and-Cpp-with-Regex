@@ -1,0 +1,1 @@
+//6 Implement a program that checks if a year entered by the user is a leap year or not.
