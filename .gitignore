@@ -1,2 +1,2 @@
-cd**/*.exe
-cd**/*.gitignore
+*.exe
+*.gitignore
