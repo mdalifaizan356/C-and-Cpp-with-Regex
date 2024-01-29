@@ -1,0 +1,1 @@
+// 47 Create a base class BankAccount with attributes account number and balance. Derive two classes, SavingsAccount and CheckingAccount, and add specific methods for each.

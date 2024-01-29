@@ -1,0 +1,1 @@
+// 44 Implement a base class Vehicle with attributes like color, make, and model. Derive two classes, Car and Motorcycle, and add specific attributes and methods for each.

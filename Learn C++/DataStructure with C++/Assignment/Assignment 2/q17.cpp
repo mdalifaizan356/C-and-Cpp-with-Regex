@@ -1,0 +1,1 @@
+//17 Traffic Light Simulator: Simulate a traffic light system with red, yellow, and green lights. Write a program that prints the current color based on a timer.

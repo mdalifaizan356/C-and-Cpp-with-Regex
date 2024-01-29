@@ -1,0 +1,59 @@
+STL is Standard Template Library.
+It is a powerful set of c++ template classes.
+All the core of the c++ standard template library are following three well structured components
+        1. Containers
+        2. Algorithm
+        3. Iterators
+
+    1. Containers: It is used to manage collection of objects of a certain kind.
+    Container library in STL provide container that are used to create data structure likes array,
+    LinkedList, Tree etc..
+    Container library is a collection of classes.
+    The containers are implemented as generic class templates.
+    Container can be used to hold different kind of objects.
+    These container are generic, they can hold elements of any data type.
+    examlpe: Vector; Vector can be use for creating dynamic array of char, int, float and other.
+
+    Common Containers
+                    vector: Replicates Arrays
+                    queue: Replicates Queue
+                    stack: Replicates stack
+                    priority_queue: Replicates heaps
+                    list:Replicates LinkedList
+                    set:Replicates trees
+                    map: Associative arrays
+    
+    Classification of Containers
+                * Sequence Containers: Array, LinkedList, etc..
+                * Associative Containers: Sorted Data structures like map, set, etc..
+                * Unordered Associative Containers: Unsorted Data structures
+                * Containers Adapters: Interface to sequence containers.
+
+
+
+    2. Algorithm: Algorithms act on containers. They provide the means by which you will perform
+    initialization, sorting, searching, and transforming of the contents of containers.
+    Algorithms library contains built in functions that performs complex algorithm on the data
+    structures.
+
+    3. Iterators are used to step through the elements of collections of objects.These 
+    collections may be containers or subset of containers.
+    Iterators in STL are used to point to the containers
+    Iterators actually acts as a bridge between containers and algorithm. 
+    
+    Container me rakha hua he data, or action perform hoga algorithm ki madad se to algorithm ko
+    containers ka data access karne k liye iterator ki zarurat hogi. ye internally pointer ka 
+    concept he
+
+
+    In simple word store karne ka kaam container k pass he or action perfoprm karne ka kaam
+    algorithm k pass he or algorithm data access karegi iterator ki help se.
+
+    Example: When we use list containers to implement linked list we just have to include the list
+    header file and use list constructor to initialize the list
+
+    #include<iostream>
+    #include<list>
+    int main(){
+        list<int>mylist;   //Template class ka object aise banta he.
+    }

@@ -1,0 +1,1 @@
+//16 Credit Score Classifier: Write a program that classifies a person's credit score as Excellent, Good, Fair, or Poor based on a numerical score.

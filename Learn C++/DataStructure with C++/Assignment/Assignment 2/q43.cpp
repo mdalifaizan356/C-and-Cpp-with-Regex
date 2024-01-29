@@ -1,0 +1,1 @@
+// 43 Create a base class Person with attributes name and age. Derive a class Student from it, adding a new attribute for student ID.

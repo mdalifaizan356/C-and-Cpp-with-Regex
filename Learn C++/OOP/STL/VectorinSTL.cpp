@@ -1,0 +1,4 @@
+/*
+The most general purpose containers is the vector
+It suppors a dynamic array
+*/

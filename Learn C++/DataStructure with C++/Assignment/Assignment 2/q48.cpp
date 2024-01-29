@@ -1,0 +1,1 @@
+// 48 mplement a base class Shape with attributes width and height. Derive two classes, Triangle and Rectangle, and calculate the area for each shape
